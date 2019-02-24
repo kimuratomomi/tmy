@@ -1,0 +1,61 @@
+#Website h1 {
+  text-align: center;
+}
+
+
+.web-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+// 説明文のボックス全て
+.web1-container{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.web2-container{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.web3-container{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// webサイトのimgに高さ50%を加えているので説明文ボックス使わんときはなおす
+
+.web1-container img {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+  text-align: center;
+}
+
+
+
+.web2-container img {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+}
+
+
+.web3-container img {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+}

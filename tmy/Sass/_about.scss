@@ -1,0 +1,146 @@
+h1 {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  h2, h3, {
+  text-align: center;
+  color: black;
+  font-style: normal;
+  margin: 10px;
+}
+
+p {
+  text-align: center;
+  color: gray;
+  font-size: 1em;
+  font-family:sans-serif;
+  font-style: normal;
+}
+
+
+.container-1{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.name img {
+  border-radius: 50%;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.name img:hover {
+  opacity: 0.9;
+  background-color: white;
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+}
+
+.name h3{
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.personal p {
+  width: 400px;
+  height: 400px;
+  text-align: center;
+}
+
+
+.container-2{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 15%;
+}
+
+.container-2 h2 {
+  color: white;
+}
+
+.HTMLCSS {
+  margin: 0 20px;
+  width: 100%;
+  width: 250px;
+  height: 250px;
+  background-color: black;
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.HTMLCSS:hover{
+  opacity: .7;
+  cursor: pointer;
+  background-color: black;
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+}
+
+.HTMLCSS h2 {
+  padding-top: 20%;
+  text-align: center;
+}
+
+
+
+.Adobe {
+  margin: 0 20px;
+  width: 100%;
+  width: 250px;
+  height: 250px;
+  background-color: black;
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.Adobe:hover{
+    opacity: .7;
+    cursor: pointer;
+    background-color: black;
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
+.Adobe h2{
+  text-align: center;
+  padding-top: 20%;
+}
+
+
+.Js{
+  margin: 0 20px;
+  width: 100%;
+  width: 250px;
+  height: 250px;
+  background-color: black;
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.Js:hover{
+  opacity: .7;
+  cursor: pointer;
+  background-color: black;
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+}
+
+.Js h2 {
+  text-align: center;
+  padding-top: 20%;
+}
